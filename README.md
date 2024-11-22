@@ -10,6 +10,7 @@ So far, only the median over each polygon is returned, but the list of available
 
 ```python
 from gdal_rasterstats import gdal_extract_median_stats
-band_names =  ["2024-01-01", "2024-02-01"]
+
+band_names =  ["2024-01-01", "2024-02-01"]  # The length of this vector must be the same as the number of bands in the tif file, and defines the column names in the output dataframe.
 df_stats = gdal_extract_median_stats("path/to/raster.tif", "path/to/vector.shp", band_names, num_workers=16)
 ```
