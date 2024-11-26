@@ -28,6 +28,8 @@ dependencies = [
   "pandas", 
   "tqdm",
   "gdal",
+  "pyarrow",
+  "libgdal-arrow-parquet"
 ]
 
 [tool.setuptools]
