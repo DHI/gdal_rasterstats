@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "gdal_rasterstats"
 version = "0.6.0"
 description = "Zonal statistics extraction based on GDAL"
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 authors = [
   { name="Paul Connetable", email="paco@dhigroup.com" }
 ]
@@ -16,20 +16,17 @@ classifiers = [
     "Intended Audience :: Developers",
     "Intended Audience :: Science/Research",
     "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Topic :: Utilities",
     "Topic :: Scientific/Engineering :: GIS",
 ]
 
 dependencies = [
+  "python",
   "numpy", 
   "pandas", 
   "tqdm",
-  "gdal",
-  "pyarrow",
-  "libgdal-arrow-parquet"
+  "gdal"
 ]
 
 [tool.setuptools]
