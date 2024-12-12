@@ -6,6 +6,10 @@ This package contains simple functions to extract median statistics over polygon
 
 So far, only the median over each polygon is returned, but the list of available statistics can be expanded. Importantly, this package requires the raster and vector files to be defined in the same geographic projection. An automatic reprojection will be added soon.
 
+### Install me
+
+Unfortunately, gdal doesn't seem to be able to be installed from the requirements. Therefore, the package needs to be installed in an environment with gdal already installed to work properly.
+
 ### How to use
 
 ```python
