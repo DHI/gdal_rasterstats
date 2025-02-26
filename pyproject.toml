@@ -23,8 +23,8 @@ classifiers = [
 
 dependencies = [
   "python",
-  "numpy", 
-  "pandas", 
+  "numpy",
+  "pandas",
   "tqdm",
   "gdal"
 ]
