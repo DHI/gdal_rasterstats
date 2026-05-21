@@ -4,7 +4,7 @@ This package is built upon a code snippet written by Perrygeo at https://gist.gi
 
 This package contains simple functions to extract median statistics over polygons on the bands of a rasterfile, using only GDAL implementations, as well as parralelization over the raster bands. This package is a faster alternative to the rasterstats package, going much faster, especially on large datasets.
 
-So far, only the median over each polygon is returned, but the list of available statistics can be expanded. Importantly, this package requires the raster and vector files to be defined in the same geographic projection. An automatic reprojection will be added soon.
+So far, only the median over each polygon is returned, but the list of available statistics can be expanded. Importantly, this package requires the raster and vector files to be defined in the same geographic projection.
 
 ### Install me
 
